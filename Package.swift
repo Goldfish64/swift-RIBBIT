@@ -4,7 +4,7 @@
 //  Copyright © 2026 John Davis. All rights reserved.
 //
 
-// swift-tools-version: 6.3
+// swift-tools-version: 6.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
