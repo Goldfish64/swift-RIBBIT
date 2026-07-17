@@ -7,4 +7,9 @@
 public struct FrogTip: Codable {
   public let tip: String
   public let number: Int
+
+  public init(tip: String, number: Int) {
+    self.tip = tip
+    self.number = number
+  }
 }

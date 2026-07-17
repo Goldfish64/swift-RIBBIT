@@ -9,6 +9,9 @@ import Foundation
 public class RIBBITClient {
   private var tips: [FrogTip] = []
 
+  public init() {
+  }
+
   public func nextTip() async -> FrogTip? {
     if tips.isEmpty {
       do {
