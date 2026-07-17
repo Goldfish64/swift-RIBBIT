@@ -4,7 +4,7 @@
 //  Copyright © 2026 John Davis. All rights reserved.
 //
 
-public struct FrogTip: Codable {
+public struct FrogTip: Codable, Sendable {
   public let tip: String
   public let number: Int
 
